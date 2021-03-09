@@ -1,5 +1,5 @@
 # AngularCurdUI
-
+This project is the test application with Angular+.net core+sql server
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
 
 ## Development server
