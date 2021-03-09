@@ -1,0 +1,25 @@
+{
+  "Products": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "category": "typicode",
+      "price": 100,
+      "is_available": true,
+      "rating": 4,
+      "reviews": 120,
+      "warranty": 2
+    },
+    {
+      "id": 2,
+      "name": "Jeans",
+      "category": "typicode",
+      "price": 100,
+      "is_available": true,
+      "rating": 4,
+      "reviews": 120,
+      "warranty": 2
+    }
+  ]
+  
+}
