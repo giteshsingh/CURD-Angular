@@ -14,5 +14,9 @@ namespace WebApiService.Model
         [Required]
         [MaxLength(50,ErrorMessage ="should be less than 50")]
         public string name { get; set; }
+
+        public string Department { get; set; }
+
+        public DateTime? DateOfJoining { get; set; }
     }
 }

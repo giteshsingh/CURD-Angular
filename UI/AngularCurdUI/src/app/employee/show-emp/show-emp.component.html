@@ -1,0 +1,24 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Employee ID</th>
+            <th>Employee Name</th>
+            <th>Employee Department</th>
+            <th>Date of joining
+            <th>Options</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let dataitem of EmployeeList">
+            <td>{{dataitem.Id}}</td>
+            <td>{{dataitem.name}}</td>
+            <td>{{dataitem.Department}}</td>
+            <td>{{dataitem.DateOfJoining}}</td>
+
+            <td>
+                <button type="button" class="btn btn-light mr-1">Edit</button>
+                <button type="button" class="btn btn-light mr-1">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

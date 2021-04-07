@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,7 @@ namespace WebApiService.Controllers
 {
     
     [ApiController]
+
     public class EmployeesController : ControllerBase
     {
         private IEmployeeData _employeeData;
