@@ -13,7 +13,7 @@ import { AddEditDepComponent } from './department/add-edit-dep/add-edit-dep.comp
 import { EmployeeComponent } from './employee/employee.component';
 import { ShowEmpComponent } from './employee/show-emp/show-emp.component';
 import { AddEditEmpComponent } from './employee/add-edit-emp/add-edit-emp.component';
-import{HttpClientModule} from '@angular/common/http';
+import{HttpClientModule,HttpClient} from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module'
 import { CommonModule } from '@angular/common';
 @NgModule({
@@ -33,7 +33,8 @@ import { CommonModule } from '@angular/common';
     FormsModule,
     RouterModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClient
     
     
   ],

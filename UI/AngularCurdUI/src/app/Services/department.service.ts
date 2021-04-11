@@ -7,7 +7,7 @@ import {Observable} from 'rxjs'
 })
 export class DepartmentService {
 
-  readonly APIUrl = 'http://localhost:56457/api';
+  readonly APIUrl = 'http://localhost:3000';
 
 
   constructor(private http: HttpClient) { }

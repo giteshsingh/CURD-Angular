@@ -22,4 +22,10 @@ describe('ShowDepComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should list department', () => {
+    var result = component.refreshDeptList();
+    expect(result).length > 0;
+
+  });
 });
